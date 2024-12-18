@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #001529; */
+  background: #fafafa;
+  padding: 0 16px;
+}
+
+.mobile_code {
+  display: flex;
+  justify-content: left;
+  column-gap: 40px;
+}
+
+.logo-vinMart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* border-radius: 10px; */
+  /* background-color: rgba(243, 229, 229, 0.7);  */
+  padding: 0 20px;
+}
+
+.logo-vinMart img {
+  max-height: 60px;
+  /* max-width: 280px; */
+  width: 100px;
+  display: block;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.profile-name {
+  /* color: white; */
+  color: black;
+  font-weight: 700;
+  margin-right: 5rem;
+}
+
+.profile-flag {
+  margin-right: 20px;
+}
+
+.logout-button {
+  margin-left: 1200px;
+}
+
+.sider {
+  background: #fff;
+}
+
+.content {
+  background: #fff;
+  padding: 24px;
+  margin: 0;
+  min-height: 280px;
+}
+
+.properties-container {
+  display: flex;
+  gap: 40px;
+}
+
+.properties-left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.properties-right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.properties-left-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.properties-left-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ant-input-number-outlined {
+  width: 100% !important;
+}
